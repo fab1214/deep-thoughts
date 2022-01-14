@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-//establishing props (thoughts & title)
+//define props (thoughts & title) from Home.js 
 const ThoughtList = ({ thoughts, title}) => {
     if(!thoughts.length){
         return <h3>No thoughts yet</h3>;
